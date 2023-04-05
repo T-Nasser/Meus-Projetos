@@ -38,17 +38,29 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ea;
 }
 
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/entrada.jpg) no-repeat;
     background-size: cover;
-    background-position: right bottom;
+    background-position: center 40%;
     height: 200px;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
