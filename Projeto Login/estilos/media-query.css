@@ -2,16 +2,26 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /* CONFIGURAÇÃO PARA TABLET */
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 90vw;
+        height: 330px;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        padding-bottom: 10px;
     }
 
     section#login > div#imagem {
         float: left;
+        background-position: center 7%;
+        background-size: 110%;
         width: 30%;
         height: 100%;
     }
@@ -24,16 +34,24 @@
 
 @media screen and (min-width: 992px) {
 
+    /* CONFIGURAÇÃO PARA TELAS GRANDES */
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 950px;
+        height: 350px;
+    }
+
+    div#formulario > p {
+        padding-bottom: 10px;
     }
 
     section#login > div#imagem {
         float: right;
+        background-position: center 75%;
         width: 50%;
         height: 100%;
     }
